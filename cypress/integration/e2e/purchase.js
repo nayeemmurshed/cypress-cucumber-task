@@ -6,11 +6,10 @@ import CartPage from '../../page-object-model/cart';
 import CheckoutInfoPage from '../../page-object-model/checkout-1'
 import CheckoutSummaryPage from '../../page-object-model/checkout-2'
 
-before(function () {
-  cy.fixture('users').then(function (data) {
-    this.data = data;
-  })
-})
+
+And('header should read {string}', header => {
+  cy.get('[class=header_secondary_container]').contains(header);
+});
 
 Given('I am on the saucedemo login page', () => {
     cy.visit('/');

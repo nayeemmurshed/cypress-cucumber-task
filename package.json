@@ -13,7 +13,9 @@
     "nonGlobalStepDefinitions": true
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "debug": "node_modules/.bin/cypress open",
+    "test": "npx cypress run"
+
   },
   "repository": {
     "type": "git",
