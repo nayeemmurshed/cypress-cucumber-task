@@ -3,6 +3,7 @@
 # Setup
 
 ```cd cypress-cucumber-task```
+
 ```npm install```
 
 ## To Run all tests (in CLI)
