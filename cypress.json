@@ -1,0 +1,7 @@
+{
+    "baseUrl": "https://www.saucedemo.com/",
+    "testFiles": "**/*.feature",
+    "chromeWebSecurity": false,
+    "waitForAnimations": false
+  }
+  

@@ -1,0 +1,28 @@
+{
+  "name": "tyl-task",
+  "version": "1.0.0",
+  "description": "testing saucedemo",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^9.1.1",
+    "cypress-cucumber-preprocessor": "^4.3.0"
+  },
+  "devDependencies": {},
+  
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nayeemmurshed/cypress-cucumber-task.git"
+  },
+  "author": "Nayeem Murshed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nayeemmurshed/cypress-cucumber-task/issues"
+  },
+  "homepage": "https://github.com/nayeemmurshed/cypress-cucumber-task#readme"
+}
