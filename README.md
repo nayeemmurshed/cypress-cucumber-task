@@ -2,13 +2,13 @@
 
 # Setup
 
-cd cypress-cucumber-task
-npm install
+```cd cypress-cucumber-task```
+```npm install```
 
 ## To Run all tests (in CLI)
-npm run test
+```npm run test```
 ## To Explore tests in Test Runner
-npm run debug
+```npm run debug```
 
 
 ## Additional Disclaimers (and things I'd do to make tests more scalable)
